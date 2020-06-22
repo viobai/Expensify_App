@@ -1,0 +1,11 @@
+// when ever babel runs in this app, use these two presets
+{
+	"presets":[
+		"env",
+		"react"
+	],
+	"plugins":[
+		"transform-class-properties",
+		"transform-object-rest-spread"
+	]
+}
