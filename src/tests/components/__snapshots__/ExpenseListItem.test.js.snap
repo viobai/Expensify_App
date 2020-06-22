@@ -34,8 +34,8 @@ ShallowWrapper {
 </Link>,
         <p>
           1.95
-           - 
-          0
+          -
+          December 31st, 1969
 </p>,
       ],
     },
@@ -73,15 +73,15 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             1.95,
-            " - ",
-            0,
+            "-",
+            "December 31st, 1969",
           ],
         },
         "ref": null,
         "rendered": Array [
           1.95,
-          " - ",
-          0,
+          "-",
+          "December 31st, 1969",
         ],
         "type": "p",
       },
@@ -105,8 +105,8 @@ ShallowWrapper {
 </Link>,
           <p>
             1.95
-             - 
-            0
+            -
+            December 31st, 1969
 </p>,
         ],
       },
@@ -144,15 +144,15 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               1.95,
-              " - ",
-              0,
+              "-",
+              "December 31st, 1969",
             ],
           },
           "ref": null,
           "rendered": Array [
             1.95,
-            " - ",
-            0,
+            "-",
+            "December 31st, 1969",
           ],
           "type": "p",
         },
