@@ -57,7 +57,7 @@ test('this should edit expense', () => {
 });
 
 
-test('this should not edit expense', () => {
+test('this should not edit expense if not found', () => {
     const amount = 122000;
     const action = {
         type: 'EDIT_EXPENSE',
@@ -68,4 +68,13 @@ test('this should not edit expense', () => {
     };
     const state = expensesReducer(expenses, action);
     expect(state).toEqual(expenses);
+});
+
+test('this set expenses', () => {
+    const action = {
+        type: 'SET_EXPENSES',
+        expenses: [expenses[1]]
+    };
+    const state = expensesReducer(expenses, action);
+    expect(state).toEqual([expenses[1]]);
 });
