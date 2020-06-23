@@ -9,6 +9,7 @@ import { addExpense, editExpense, removeExpense } from './actions/expenses';
 import 'normalize.css/normalize.css';
 import './styles/style.scss'; //scss
 import 'react-dates/lib/css/_datepicker.css';
+import './firebase/firebase';
 
 const store = configureStore();
 
