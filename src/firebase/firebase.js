@@ -14,53 +14,6 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
+const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
 
-export { firebase, database as default };
-
-//// child_remove
-//database.ref('expenses').on('child_remove', (snapshot) => {
-//    console.log(snapshot.key, snapshot.val());
-//});
-
-//// child_changes
-//database.ref('expenses').on('child_changed', (snapshot) => {
-//    console.log(snapshot.key, snapshot.val());
-//});
-
-//// child_added
-//database.ref('expenses').on('child_added', (snapshot) => {
-//    console.log(snapshot.key, snapshot.val());
-//});
-
-//// on each value change take a snap shot
-//database.ref('expenses').on('value', (snapshot) => {
-//    const expenses = [];
-
-//    snapshot.forEach((childSnapshot) => {
-//        expenses.push({
-//            id: childSnapshot.key,
-//            ...childSnapshot.val()
-//        });
-//    });
-//});
-
-//database.ref('expenses').push({
-//    description: 'Rent',
-//    note: '',
-//    amount: 109500,
-//    createdAt: 97612349873
-//})
-
-//database.ref('expenses').push({
-//    description: 'Phone Bill',
-//    note: '',
-//    amount: 5900,
-//    createdAt: 97612349873
-//})
-
-//database.ref('expenses').push({
-//    description: 'Food',
-//    note: '',
-//    amount: 1200,
-//    createdAt: 97612349873
-//})
+export { firebase, googleAuthProvider, database as default };
