@@ -20,16 +20,19 @@ ShallowWrapper {
       "children": Array [
         undefined,
         <form
+          className="form"
           onSubmit={[Function]}
 >
           <input
                     autoFocus={true}
+                    className="text-input"
                     onChange={[Function]}
                     placeholder="Description"
                     type="text"
                     value=""
           />
           <input
+                    className="text-input"
                     onChange={[Function]}
                     placeholder="Amount"
                     type="text"
@@ -112,13 +115,18 @@ ShallowWrapper {
                     withPortal={false}
           />
           <textarea
+                    className="textarea"
                     onChange={[Function]}
                     placeholder="Note for your expense (optional)"
                     value=""
           />
-          <button>
-                    Add Expense
-          </button>
+          <div>
+                    <button
+                              className="button"
+                    >
+                              Save Expense
+                    </button>
+          </div>
 </form>,
       ],
     },
@@ -133,12 +141,14 @@ ShallowWrapper {
           "children": Array [
             <input
               autoFocus={true}
+              className="text-input"
               onChange={[Function]}
               placeholder="Description"
               type="text"
               value=""
 />,
             <input
+              className="text-input"
               onChange={[Function]}
               placeholder="Amount"
               type="text"
@@ -221,14 +231,20 @@ ShallowWrapper {
               withPortal={false}
 />,
             <textarea
+              className="textarea"
               onChange={[Function]}
               placeholder="Note for your expense (optional)"
               value=""
 />,
-            <button>
-              Add Expense
-</button>,
+            <div>
+              <button
+                            className="button"
+              >
+                            Save Expense
+              </button>
+</div>,
           ],
+          "className": "form",
           "onSubmit": [Function],
         },
         "ref": null,
@@ -239,6 +255,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "autoFocus": true,
+              "className": "text-input",
               "onChange": [Function],
               "placeholder": "Description",
               "type": "text",
@@ -253,6 +270,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "text-input",
               "onChange": [Function],
               "placeholder": "Amount",
               "type": "text",
@@ -349,6 +367,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "textarea",
               "onChange": [Function],
               "placeholder": "Note for your expense (optional)",
               "value": "",
@@ -362,11 +381,26 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Add Expense",
+              "children": <button
+                className="button"
+>
+                Save Expense
+</button>,
             },
             "ref": null,
-            "rendered": "Add Expense",
-            "type": "button",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Save Expense",
+                "className": "button",
+              },
+              "ref": null,
+              "rendered": "Save Expense",
+              "type": "button",
+            },
+            "type": "div",
           },
         ],
         "type": "form",
@@ -383,16 +417,19 @@ ShallowWrapper {
         "children": Array [
           undefined,
           <form
+            className="form"
             onSubmit={[Function]}
 >
             <input
                         autoFocus={true}
+                        className="text-input"
                         onChange={[Function]}
                         placeholder="Description"
                         type="text"
                         value=""
             />
             <input
+                        className="text-input"
                         onChange={[Function]}
                         placeholder="Amount"
                         type="text"
@@ -475,13 +512,18 @@ ShallowWrapper {
                         withPortal={false}
             />
             <textarea
+                        className="textarea"
                         onChange={[Function]}
                         placeholder="Note for your expense (optional)"
                         value=""
             />
-            <button>
-                        Add Expense
-            </button>
+            <div>
+                        <button
+                                    className="button"
+                        >
+                                    Save Expense
+                        </button>
+            </div>
 </form>,
         ],
       },
@@ -496,12 +538,14 @@ ShallowWrapper {
             "children": Array [
               <input
                 autoFocus={true}
+                className="text-input"
                 onChange={[Function]}
                 placeholder="Description"
                 type="text"
                 value=""
 />,
               <input
+                className="text-input"
                 onChange={[Function]}
                 placeholder="Amount"
                 type="text"
@@ -584,14 +628,20 @@ ShallowWrapper {
                 withPortal={false}
 />,
               <textarea
+                className="textarea"
                 onChange={[Function]}
                 placeholder="Note for your expense (optional)"
                 value=""
 />,
-              <button>
-                Add Expense
-</button>,
+              <div>
+                <button
+                                className="button"
+                >
+                                Save Expense
+                </button>
+</div>,
             ],
+            "className": "form",
             "onSubmit": [Function],
           },
           "ref": null,
@@ -602,6 +652,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "autoFocus": true,
+                "className": "text-input",
                 "onChange": [Function],
                 "placeholder": "Description",
                 "type": "text",
@@ -616,6 +667,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "text-input",
                 "onChange": [Function],
                 "placeholder": "Amount",
                 "type": "text",
@@ -712,6 +764,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "textarea",
                 "onChange": [Function],
                 "placeholder": "Note for your expense (optional)",
                 "value": "",
@@ -725,11 +778,26 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Add Expense",
+                "children": <button
+                  className="button"
+>
+                  Save Expense
+</button>,
               },
               "ref": null,
-              "rendered": "Add Expense",
-              "type": "button",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Save Expense",
+                  "className": "button",
+                },
+                "ref": null,
+                "rendered": "Save Expense",
+                "type": "button",
+              },
+              "type": "div",
             },
           ],
           "type": "form",
@@ -778,16 +846,19 @@ ShallowWrapper {
       "children": Array [
         undefined,
         <form
+          className="form"
           onSubmit={[Function]}
 >
           <input
                     autoFocus={true}
+                    className="text-input"
                     onChange={[Function]}
                     placeholder="Description"
                     type="text"
                     value="Rent"
           />
           <input
+                    className="text-input"
                     onChange={[Function]}
                     placeholder="Amount"
                     type="text"
@@ -870,13 +941,18 @@ ShallowWrapper {
                     withPortal={false}
           />
           <textarea
+                    className="textarea"
                     onChange={[Function]}
                     placeholder="Note for your expense (optional)"
                     value=""
           />
-          <button>
-                    Add Expense
-          </button>
+          <div>
+                    <button
+                              className="button"
+                    >
+                              Save Expense
+                    </button>
+          </div>
 </form>,
       ],
     },
@@ -891,12 +967,14 @@ ShallowWrapper {
           "children": Array [
             <input
               autoFocus={true}
+              className="text-input"
               onChange={[Function]}
               placeholder="Description"
               type="text"
               value="Rent"
 />,
             <input
+              className="text-input"
               onChange={[Function]}
               placeholder="Amount"
               type="text"
@@ -979,14 +1057,20 @@ ShallowWrapper {
               withPortal={false}
 />,
             <textarea
+              className="textarea"
               onChange={[Function]}
               placeholder="Note for your expense (optional)"
               value=""
 />,
-            <button>
-              Add Expense
-</button>,
+            <div>
+              <button
+                            className="button"
+              >
+                            Save Expense
+              </button>
+</div>,
           ],
+          "className": "form",
           "onSubmit": [Function],
         },
         "ref": null,
@@ -997,6 +1081,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "autoFocus": true,
+              "className": "text-input",
               "onChange": [Function],
               "placeholder": "Description",
               "type": "text",
@@ -1011,6 +1096,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "text-input",
               "onChange": [Function],
               "placeholder": "Amount",
               "type": "text",
@@ -1107,6 +1193,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "textarea",
               "onChange": [Function],
               "placeholder": "Note for your expense (optional)",
               "value": "",
@@ -1120,11 +1207,26 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Add Expense",
+              "children": <button
+                className="button"
+>
+                Save Expense
+</button>,
             },
             "ref": null,
-            "rendered": "Add Expense",
-            "type": "button",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Save Expense",
+                "className": "button",
+              },
+              "ref": null,
+              "rendered": "Save Expense",
+              "type": "button",
+            },
+            "type": "div",
           },
         ],
         "type": "form",
@@ -1141,16 +1243,19 @@ ShallowWrapper {
         "children": Array [
           undefined,
           <form
+            className="form"
             onSubmit={[Function]}
 >
             <input
                         autoFocus={true}
+                        className="text-input"
                         onChange={[Function]}
                         placeholder="Description"
                         type="text"
                         value="Rent"
             />
             <input
+                        className="text-input"
                         onChange={[Function]}
                         placeholder="Amount"
                         type="text"
@@ -1233,13 +1338,18 @@ ShallowWrapper {
                         withPortal={false}
             />
             <textarea
+                        className="textarea"
                         onChange={[Function]}
                         placeholder="Note for your expense (optional)"
                         value=""
             />
-            <button>
-                        Add Expense
-            </button>
+            <div>
+                        <button
+                                    className="button"
+                        >
+                                    Save Expense
+                        </button>
+            </div>
 </form>,
         ],
       },
@@ -1254,12 +1364,14 @@ ShallowWrapper {
             "children": Array [
               <input
                 autoFocus={true}
+                className="text-input"
                 onChange={[Function]}
                 placeholder="Description"
                 type="text"
                 value="Rent"
 />,
               <input
+                className="text-input"
                 onChange={[Function]}
                 placeholder="Amount"
                 type="text"
@@ -1342,14 +1454,20 @@ ShallowWrapper {
                 withPortal={false}
 />,
               <textarea
+                className="textarea"
                 onChange={[Function]}
                 placeholder="Note for your expense (optional)"
                 value=""
 />,
-              <button>
-                Add Expense
-</button>,
+              <div>
+                <button
+                                className="button"
+                >
+                                Save Expense
+                </button>
+</div>,
             ],
+            "className": "form",
             "onSubmit": [Function],
           },
           "ref": null,
@@ -1360,6 +1478,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "autoFocus": true,
+                "className": "text-input",
                 "onChange": [Function],
                 "placeholder": "Description",
                 "type": "text",
@@ -1374,6 +1493,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "text-input",
                 "onChange": [Function],
                 "placeholder": "Amount",
                 "type": "text",
@@ -1470,6 +1590,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "textarea",
                 "onChange": [Function],
                 "placeholder": "Note for your expense (optional)",
                 "value": "",
@@ -1483,11 +1604,26 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Add Expense",
+                "children": <button
+                  className="button"
+>
+                  Save Expense
+</button>,
               },
               "ref": null,
-              "rendered": "Add Expense",
-              "type": "button",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Save Expense",
+                  "className": "button",
+                },
+                "ref": null,
+                "rendered": "Save Expense",
+                "type": "button",
+              },
+              "type": "div",
             },
           ],
           "type": "form",
@@ -1526,16 +1662,19 @@ ShallowWrapper {
       "children": Array [
         undefined,
         <form
+          className="form"
           onSubmit={[Function]}
 >
           <input
                     autoFocus={true}
+                    className="text-input"
                     onChange={[Function]}
                     placeholder="Description"
                     type="text"
                     value=""
           />
           <input
+                    className="text-input"
                     onChange={[Function]}
                     placeholder="Amount"
                     type="text"
@@ -1618,13 +1757,18 @@ ShallowWrapper {
                     withPortal={false}
           />
           <textarea
+                    className="textarea"
                     onChange={[Function]}
                     placeholder="Note for your expense (optional)"
                     value=""
           />
-          <button>
-                    Add Expense
-          </button>
+          <div>
+                    <button
+                              className="button"
+                    >
+                              Save Expense
+                    </button>
+          </div>
 </form>,
       ],
     },
@@ -1639,12 +1783,14 @@ ShallowWrapper {
           "children": Array [
             <input
               autoFocus={true}
+              className="text-input"
               onChange={[Function]}
               placeholder="Description"
               type="text"
               value=""
 />,
             <input
+              className="text-input"
               onChange={[Function]}
               placeholder="Amount"
               type="text"
@@ -1727,14 +1873,20 @@ ShallowWrapper {
               withPortal={false}
 />,
             <textarea
+              className="textarea"
               onChange={[Function]}
               placeholder="Note for your expense (optional)"
               value=""
 />,
-            <button>
-              Add Expense
-</button>,
+            <div>
+              <button
+                            className="button"
+              >
+                            Save Expense
+              </button>
+</div>,
           ],
+          "className": "form",
           "onSubmit": [Function],
         },
         "ref": null,
@@ -1745,6 +1897,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "autoFocus": true,
+              "className": "text-input",
               "onChange": [Function],
               "placeholder": "Description",
               "type": "text",
@@ -1759,6 +1912,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "text-input",
               "onChange": [Function],
               "placeholder": "Amount",
               "type": "text",
@@ -1855,6 +2009,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "textarea",
               "onChange": [Function],
               "placeholder": "Note for your expense (optional)",
               "value": "",
@@ -1868,11 +2023,26 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Add Expense",
+              "children": <button
+                className="button"
+>
+                Save Expense
+</button>,
             },
             "ref": null,
-            "rendered": "Add Expense",
-            "type": "button",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Save Expense",
+                "className": "button",
+              },
+              "ref": null,
+              "rendered": "Save Expense",
+              "type": "button",
+            },
+            "type": "div",
           },
         ],
         "type": "form",
@@ -1889,16 +2059,19 @@ ShallowWrapper {
         "children": Array [
           undefined,
           <form
+            className="form"
             onSubmit={[Function]}
 >
             <input
                         autoFocus={true}
+                        className="text-input"
                         onChange={[Function]}
                         placeholder="Description"
                         type="text"
                         value=""
             />
             <input
+                        className="text-input"
                         onChange={[Function]}
                         placeholder="Amount"
                         type="text"
@@ -1981,13 +2154,18 @@ ShallowWrapper {
                         withPortal={false}
             />
             <textarea
+                        className="textarea"
                         onChange={[Function]}
                         placeholder="Note for your expense (optional)"
                         value=""
             />
-            <button>
-                        Add Expense
-            </button>
+            <div>
+                        <button
+                                    className="button"
+                        >
+                                    Save Expense
+                        </button>
+            </div>
 </form>,
         ],
       },
@@ -2002,12 +2180,14 @@ ShallowWrapper {
             "children": Array [
               <input
                 autoFocus={true}
+                className="text-input"
                 onChange={[Function]}
                 placeholder="Description"
                 type="text"
                 value=""
 />,
               <input
+                className="text-input"
                 onChange={[Function]}
                 placeholder="Amount"
                 type="text"
@@ -2090,14 +2270,20 @@ ShallowWrapper {
                 withPortal={false}
 />,
               <textarea
+                className="textarea"
                 onChange={[Function]}
                 placeholder="Note for your expense (optional)"
                 value=""
 />,
-              <button>
-                Add Expense
-</button>,
+              <div>
+                <button
+                                className="button"
+                >
+                                Save Expense
+                </button>
+</div>,
             ],
+            "className": "form",
             "onSubmit": [Function],
           },
           "ref": null,
@@ -2108,6 +2294,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "autoFocus": true,
+                "className": "text-input",
                 "onChange": [Function],
                 "placeholder": "Description",
                 "type": "text",
@@ -2122,6 +2309,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "text-input",
                 "onChange": [Function],
                 "placeholder": "Amount",
                 "type": "text",
@@ -2218,6 +2406,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "textarea",
                 "onChange": [Function],
                 "placeholder": "Note for your expense (optional)",
                 "value": "",
@@ -2231,11 +2420,26 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Add Expense",
+                "children": <button
+                  className="button"
+>
+                  Save Expense
+</button>,
               },
               "ref": null,
-              "rendered": "Add Expense",
-              "type": "button",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Save Expense",
+                  "className": "button",
+                },
+                "ref": null,
+                "rendered": "Save Expense",
+                "type": "button",
+              },
+              "type": "div",
             },
           ],
           "type": "form",
@@ -2272,20 +2476,25 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <p>
+        <p
+          className="form__error"
+>
           Please provide description and amount!
 </p>,
         <form
+          className="form"
           onSubmit={[Function]}
 >
           <input
                     autoFocus={true}
+                    className="text-input"
                     onChange={[Function]}
                     placeholder="Description"
                     type="text"
                     value=""
           />
           <input
+                    className="text-input"
                     onChange={[Function]}
                     placeholder="Amount"
                     type="text"
@@ -2368,13 +2577,18 @@ ShallowWrapper {
                     withPortal={false}
           />
           <textarea
+                    className="textarea"
                     onChange={[Function]}
                     placeholder="Note for your expense (optional)"
                     value=""
           />
-          <button>
-                    Add Expense
-          </button>
+          <div>
+                    <button
+                              className="button"
+                    >
+                              Save Expense
+                    </button>
+          </div>
 </form>,
       ],
     },
@@ -2386,6 +2600,7 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": "Please provide description and amount!",
+          "className": "form__error",
         },
         "ref": null,
         "rendered": "Please provide description and amount!",
@@ -2399,12 +2614,14 @@ ShallowWrapper {
           "children": Array [
             <input
               autoFocus={true}
+              className="text-input"
               onChange={[Function]}
               placeholder="Description"
               type="text"
               value=""
 />,
             <input
+              className="text-input"
               onChange={[Function]}
               placeholder="Amount"
               type="text"
@@ -2487,14 +2704,20 @@ ShallowWrapper {
               withPortal={false}
 />,
             <textarea
+              className="textarea"
               onChange={[Function]}
               placeholder="Note for your expense (optional)"
               value=""
 />,
-            <button>
-              Add Expense
-</button>,
+            <div>
+              <button
+                            className="button"
+              >
+                            Save Expense
+              </button>
+</div>,
           ],
+          "className": "form",
           "onSubmit": [Function],
         },
         "ref": null,
@@ -2505,6 +2728,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "autoFocus": true,
+              "className": "text-input",
               "onChange": [Function],
               "placeholder": "Description",
               "type": "text",
@@ -2519,6 +2743,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "text-input",
               "onChange": [Function],
               "placeholder": "Amount",
               "type": "text",
@@ -2615,6 +2840,7 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "textarea",
               "onChange": [Function],
               "placeholder": "Note for your expense (optional)",
               "value": "",
@@ -2628,11 +2854,26 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "Add Expense",
+              "children": <button
+                className="button"
+>
+                Save Expense
+</button>,
             },
             "ref": null,
-            "rendered": "Add Expense",
-            "type": "button",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Save Expense",
+                "className": "button",
+              },
+              "ref": null,
+              "rendered": "Save Expense",
+              "type": "button",
+            },
+            "type": "div",
           },
         ],
         "type": "form",
@@ -2647,20 +2888,25 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <p>
+          <p
+            className="form__error"
+>
             Please provide description and amount!
 </p>,
           <form
+            className="form"
             onSubmit={[Function]}
 >
             <input
                         autoFocus={true}
+                        className="text-input"
                         onChange={[Function]}
                         placeholder="Description"
                         type="text"
                         value=""
             />
             <input
+                        className="text-input"
                         onChange={[Function]}
                         placeholder="Amount"
                         type="text"
@@ -2743,13 +2989,18 @@ ShallowWrapper {
                         withPortal={false}
             />
             <textarea
+                        className="textarea"
                         onChange={[Function]}
                         placeholder="Note for your expense (optional)"
                         value=""
             />
-            <button>
-                        Add Expense
-            </button>
+            <div>
+                        <button
+                                    className="button"
+                        >
+                                    Save Expense
+                        </button>
+            </div>
 </form>,
         ],
       },
@@ -2761,6 +3012,7 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": "Please provide description and amount!",
+            "className": "form__error",
           },
           "ref": null,
           "rendered": "Please provide description and amount!",
@@ -2774,12 +3026,14 @@ ShallowWrapper {
             "children": Array [
               <input
                 autoFocus={true}
+                className="text-input"
                 onChange={[Function]}
                 placeholder="Description"
                 type="text"
                 value=""
 />,
               <input
+                className="text-input"
                 onChange={[Function]}
                 placeholder="Amount"
                 type="text"
@@ -2862,14 +3116,20 @@ ShallowWrapper {
                 withPortal={false}
 />,
               <textarea
+                className="textarea"
                 onChange={[Function]}
                 placeholder="Note for your expense (optional)"
                 value=""
 />,
-              <button>
-                Add Expense
-</button>,
+              <div>
+                <button
+                                className="button"
+                >
+                                Save Expense
+                </button>
+</div>,
             ],
+            "className": "form",
             "onSubmit": [Function],
           },
           "ref": null,
@@ -2880,6 +3140,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "autoFocus": true,
+                "className": "text-input",
                 "onChange": [Function],
                 "placeholder": "Description",
                 "type": "text",
@@ -2894,6 +3155,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "text-input",
                 "onChange": [Function],
                 "placeholder": "Amount",
                 "type": "text",
@@ -2990,6 +3252,7 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "textarea",
                 "onChange": [Function],
                 "placeholder": "Note for your expense (optional)",
                 "value": "",
@@ -3003,11 +3266,26 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "Add Expense",
+                "children": <button
+                  className="button"
+>
+                  Save Expense
+</button>,
               },
               "ref": null,
-              "rendered": "Add Expense",
-              "type": "button",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Save Expense",
+                  "className": "button",
+                },
+                "ref": null,
+                "rendered": "Save Expense",
+                "type": "button",
+              },
+              "type": "div",
             },
           ],
           "type": "form",

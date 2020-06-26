@@ -11,11 +11,9 @@ import 'normalize.css/normalize.css';
 import './styles/style.scss'; //scss
 import 'react-dates/lib/css/_datepicker.css';
 import { firebase } from './firebase/firebase';
+import LoadingPage from './components/LoadingPage'
 
 const store = configureStore();
-
-//store.dispatch(addExpense({ description: 'Water bill', amount: 100, createdAt: 1589479200000}));
-//store.dispatch(addExpense({ description: 'Gas bill', amount: 1000, createdAt: 1594836000000 }));
 
 const jsx = (
     <Provider store={store}>
@@ -31,7 +29,7 @@ const renderApp = () => {
     }
 }
 
-ReactDOM.render(<p>Loading...</p>, document.getElementById('app'));
+ReactDOM.render(<LoadingPage />, document.getElementById('app'));
 
 firebase.auth().onAuthStateChanged((user) => {
     // if logged in, retrieve and set user expenses in firebase, go to dashbaord
