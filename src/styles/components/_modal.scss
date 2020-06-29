@@ -1,0 +1,31 @@
+.modal {
+	position: fixed;
+	background: white;
+	top: 40%;
+	left: 25%;
+	right: 25%;
+	width: auto;
+	height: auto;
+	position: center;
+	box-shadow: 0 0 40px rgba(0,0,0,.3);
+	
+}
+
+.modal:focus {
+	outline: none;
+}
+
+.modal-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: $m-size $l-size;
+}
+
+.modal-buttons {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0 $m-size 0;
+}
