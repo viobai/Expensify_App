@@ -30,7 +30,7 @@
     "hoek": "4.2.1",
     "live-server": "^1.2.1",
     "moment": "2.18.1",
-    "node-sass": "4.14.1",
+    "node-sass": "7.0.0",
     "normalize.css": "7.0.0",
     "numeral": "2.0.6",
     "raf": "3.3.2",
